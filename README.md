@@ -1,6 +1,6 @@
 # Aplicación base en node JS para implementar microservicios
 
-¡La aplicación tiene *Una estructura básica para iniciar un aplcación*!
+¡La aplicación tiene *Una estructura básica para iniciar un app de microservicios *!
 
 Incluye los diferentes comandos para el desarrollo desde cero hasta producción, traspiliación con babel -*configuración para desarrollo Emacs2019 y Emac2015 para producción*-
 
