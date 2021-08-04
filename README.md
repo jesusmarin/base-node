@@ -1,8 +1,8 @@
-# Aplicacion base en node para implementar microservicios
+# Aplicación base en node JS para implementar microservicios
 
 ¡La aplicacion tiene *Una estructura básica para inicia un aplcación*!
 
-Incluye los diferentes comandos para el desarrollo desde cero ahasta producción
+Incluye los diferentes comandos para el desarrollo desde cero hasta producción, traspiliación con babel -*configuración para desarrollo Emacs2019 y Emac2015 para producción*-
 
 Lista de comandos
 ---------------
@@ -11,7 +11,7 @@ Lista de comandos
 3. start: inicia la aplicacion  en la carpeta build para producción
 4. on: levanta la aplicacion en la carpeta src
 
-## Capetas Integradas
+## Carpetas Integradas
 
 ### src
 ¡Contiene todo el código de la aplicación en desarrollo!
@@ -23,25 +23,25 @@ Lista de comandos
 ¡Contiene el archivo de configuración de rutas instanciadas con express.Router()!
 
 ### src/controller
-¡Contiene el archivo para la implementacion de los procesos que se llaman desde las rutas!
+¡Contiene el archivo para la implementacián de los procesos que se llaman desde las rutas!
 
 ### src/auth
 ¡Contiene el archivo  con el objeto verifyToken que permite validar autenticación con jsonwebtoken -ver documentación-!
 
 ### src/api
-¡Contiene el archivo con cuatro metodos utilizando la api js fetch!
+¡Contiene el archivo con cuatro mátodos utilizando la api js fetch!
 
-Lista de métodos (se pasa la url y el metodo -GET, POST, PUT, DELETE-)
+Lista de métodos (se pasa la url y el método -GET, POST, PUT, DELETE-)
 ---------------
-1. peticionData: (sin parametros adicionales a la url y el metodo)  
-2. peticionDataBody: (json para body como parametro adicional a la url y el metodo)
-3. peticionDataHeaders: (parametros en json para headers como parametros adicionales a la url y el metodo)
-4. peticionDataBodyHeaders: (parametros en json para headers y body como parametros adicionales a la url y el metodo)
+1. peticionData: (sin parámetros adicionales a la url y el metodo)  
+2. peticionDataBody: (json para body como parámetro adicional a la url y el metodo)
+3. peticionDataHeaders: (parámetros en json para headers como parámetros adicionales a la url y el metodo)
+4. peticionDataBodyHeaders: (parámetros en json para headers y body como parámetros adicionales a la url y el metodo)
 
 ### src/util
-¡Contiene el archivo reuzables para la aplicación!
+¡Contiene el archivo reutilizables para la aplicación!
 
 ### src/constants
-¡Contiene las constantes disponible para la aplicación!
+¡Contiene las constantes que se creen, disponibles para la aplicación!
 
 
