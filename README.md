@@ -1,6 +1,6 @@
 # Aplicación base en node JS para implementar microservicios
 
-¡La aplicacion tiene *Una estructura básica para inicia un aplcación*!
+¡La aplicación tiene *Una estructura básica para iniciar un aplcación*!
 
 Incluye los diferentes comandos para el desarrollo desde cero hasta producción, traspiliación con babel -*configuración para desarrollo Emacs2019 y Emac2015 para producción*-
 
@@ -23,18 +23,18 @@ Lista de comandos
 ¡Contiene el archivo de configuración de rutas instanciadas con express.Router()!
 
 ### src/controller
-¡Contiene el archivo para la implementacián de los procesos que se llaman desde las rutas!
+¡Contiene el archivo para la implementación de los procesos que se llaman desde las rutas!
 
 ### src/auth
 ¡Contiene el archivo  con el objeto verifyToken que permite validar autenticación con jsonwebtoken -ver documentación-!
 
 ### src/api
-¡Contiene el archivo con cuatro mátodos utilizando la api js fetch!
+¡Contiene el archivo con cuatro métodos utilizando la api js fetch!
 
 Lista de métodos (se pasa la url y el método -GET, POST, PUT, DELETE-)
 ---------------
 1. peticionData: (sin parámetros adicionales a la url y el metodo)  
-2. peticionDataBody: (json para body como parámetro adicional a la url y el metodo)
+2. peticionDataBody: (json para body como parámetro adicional a la url y el método)
 3. peticionDataHeaders: (parámetros en json para headers como parámetros adicionales a la url y el metodo)
 4. peticionDataBodyHeaders: (parámetros en json para headers y body como parámetros adicionales a la url y el metodo)
 
